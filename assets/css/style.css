@@ -113,3 +113,18 @@
     font-weight: 700;
     font-size: 1.3rem;
   }
+
+  .home-end img{
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+ .video-he{
+    width: 20%;
+    border: 0;
+    outline: none;
+    padding: 0;
+    background-color: white;
+ }
