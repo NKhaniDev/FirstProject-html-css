@@ -149,3 +149,41 @@
     flex: 33.33%;
     padding: 0 10px;
   }
+
+  /* Services */
+.services{
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 80px;
+    background-color: #9a5f5f;
+  }
+
+  .services .row{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .services .row .text-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .services h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .services p{
+    text-align: justify;
+  }
+
+  .services img{
+    
+  
+    width: 500px;
+    height:250px;
+    display: float;
+    margin-bottom: 5px;
+    
+  }
