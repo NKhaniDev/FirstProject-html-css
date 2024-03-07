@@ -115,16 +115,37 @@
   }
 
   .home-end img{
-    max-width: 15%;
-    height: auto;
-    display: block;
+    
+    
+    
+    height: 60%;
+    width: 40%;
+    display: float;
     margin-bottom: 5px;
   }
 
- .video-he{
-    width: 20%;
-    border: 0;
-    outline: none;
-    padding: 0;
-    background-color: white;
- }
+  /* home-end */
+
+  .home-end img{
+    
+    
+    
+    height: 60%;
+    width: 40%;
+    display: float;
+    margin-bottom: 5px;
+  }
+
+  .home-end{
+    
+    text-align: center;
+    margin-top: 50px;
+  }
+  .home-end .row{
+    display: flex;
+    justify-content: center;
+  }
+  .home-end .column{
+    flex: 33.33%;
+    padding: 0 10px;
+  }
