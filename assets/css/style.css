@@ -170,3 +170,30 @@
   .services p{
     text-align: justify;
   }
+
+
+  /* About */
+
+
+
+ 
+
+  .About .row{
+    height: auto;
+    width: 100%;
+    
+    
+    text-align: center;
+    margin-top: 50px;
+
+
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .About .column{
+    
+    padding: 30px 20px;
+    border: 1px solid #000;
+  }
+
