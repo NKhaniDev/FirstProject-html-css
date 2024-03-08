@@ -152,7 +152,7 @@ nav ul li a{
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 80px;
-    background-color: #10a897;
+    ;
   }
   .services .row{
     display: flex;
@@ -164,6 +164,9 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     padding: 40px;
+  }
+  #img-box{
+    width: 400px;
   }
   .services h3{
     font-size: 1.5rem;
@@ -282,3 +285,8 @@ button[type="submit"]:hover{
   background-color: #10a897;
   color: #ffffff;
 }
+
+
+
+
+
