@@ -179,21 +179,41 @@
  
 
   .About .row{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
     height: auto;
-    width: 100%;
+    width: 80%;
     
     
     text-align: center;
     margin-top: 50px;
-
-
+    border: 5px solid #000;
 
     display: flex;
     justify-content: space-around;
+    
   }
   .About .column{
     
+    width: 200px;
+    height: auto;
     padding: 30px 20px;
     border: 1px solid #000;
+    background-color: rgb(37, 67, 94);
   }
 
+  .about-h2{
+    color: azure;
+  }
+
+  .about-content{
+    color: azure;
+  }
+
+.logo--img1{
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
