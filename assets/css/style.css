@@ -234,17 +234,21 @@ nav ul li a{
   margin-left: 150px;
   margin-top: 80px;
   margin-bottom: 40px;
+  ;
   
 }
 fieldset{
   max-width: 60%;
+  
 }
 .text-right,.contact-form{
   flex: 1;
+  
 }
 .contact-section .text-right .contact-info{
   border-radius: 12px;
   padding: 14px;
+  
 }
 .contact-info legend{
   color: #ff6635;
@@ -252,17 +256,19 @@ fieldset{
   font-size: 1.3em;
 }
 .contact-form{
-  background-color: #0f4867;
+  background-color: rgb(37, 67, 94 );
   padding: 30px;
   border-radius: 12px;
   color: #ffffff;
 }
 .form-group{
   margin-bottom: 15px;
+  
 }
 .form-group label{
   display: block;
   margin-bottom: 5px;
+  
 }
 input,
 textarea{
@@ -287,6 +293,21 @@ button[type="submit"]:hover{
 }
 
 
+/* Footer */
+#social-networks {
+  background-color: rgb(37, 67, 94 );
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #f0e5e5;
+}
 
 
 
