@@ -28,13 +28,13 @@ header{
   
   display: flex;
   justify-content: space-between;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding: 20px;
 }
 .logo--img{
   width: 100px;
-padding: 0;
+  padding: 0;
 }
 
 nav ul{
@@ -80,7 +80,7 @@ nav ul li a{
     padding: 0 10px;
   }
   .hero h1{
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
   }
   .hero p{
@@ -157,7 +157,7 @@ nav ul li a{
     justify-content: center;
   }
   .home-end .column{
-    flex: 33.33%;
+   
     padding: 0 10px;
   }
 
@@ -202,8 +202,8 @@ nav ul li a{
 
   .About .row{
 
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 80px;
     margin-bottom: 80px;
     height: auto;
@@ -215,14 +215,14 @@ nav ul li a{
     border: 5px solid #000;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
   .About .column{
     
-    width: 200px;
+    width: 300px;
     height: auto;
-    padding: 30px 20px;
+    
     border: 1px solid #000;
     background-color: rgb(37, 67, 94);
   }
@@ -326,5 +326,54 @@ button[type="submit"]:hover{
   color: #f0e5e5;
 }
 
+/* Responsive Design */
+@media (max-width: 412px) {
+  header{
+    flex-direction: column;
+  }
+  .logo{
+    margin-bottom: 10px;
+  }
+
+  .hero{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .hero .row{
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero .column{
+    margin-bottom: 20px;
+  }
+
+  .home-end .row{
+
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 
 
+  .services{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .services .row{
+    flex-direction: column;
+  }
+  .services .row .text-column{
+    order: 2;
+    padding: 0;
+  }
+  .services img{
+    width: 100%;
+    height: auto;
+  }
+
+  .about{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  }
