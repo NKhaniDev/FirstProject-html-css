@@ -136,8 +136,15 @@ nav ul li a{
  /* About */
 
 
-
+.title{
+  display: flex;
+  justify-content: center;
+  color: #e50e0e;
+}
  
+.About{
+  background-color: ;
+}
 
  .About .row{
 
@@ -261,10 +268,10 @@ color: #ffffff;
 
   /* Services */
   .services{
+
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 80px;
-    ;
   }
   .services .row{
     display: flex;
