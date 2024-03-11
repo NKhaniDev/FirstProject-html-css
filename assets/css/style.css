@@ -262,8 +262,17 @@ color: #ffffff;
     align-items: center;
     padding: 40px;
   }
-  .img-box{
-    width: 400px;
+  #img-box1{
+    width: 320px;
+    padding: 30px;
+  }
+  #img-box2{
+    width: 320px;
+    padding: 30px;
+  }
+  #img-box3{
+    width: 320px;
+    padding: 30px;
   }
   .services h3{
     font-size: 1.5rem;
@@ -338,10 +347,17 @@ color: #ffffff;
     height: auto;
   }
 
-  .img-box{
-    width: 300px;
+  #img-box1{
+    width: 320px;
     padding: 30px;
-    
+  }
+  #img-box2{
+    width: 320px;
+    padding: 30px;
+  }
+  #img-box3{
+    width: 320px;
+    padding: 30px;
   }
  
   .about .row{
@@ -575,11 +591,18 @@ color: #ffffff;
     padding: 30px;
     
   }
-  .img-box{
+  #img-box1{
     width: 320px;
     padding: 30px;
   }
-
+  #img-box2{
+    width: 320px;
+    padding: 30px;
+  }
+  #img-box3{
+    width: 320px;
+    padding: 30px;
+  }
   
   .about .row{
 
