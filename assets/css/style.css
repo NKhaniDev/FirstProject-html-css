@@ -22,6 +22,7 @@ h3 {
     color: #252525;
 }
 
+/* style for header */
 header{
   background-color: rgb(37, 67, 94);
   align-items: center;
@@ -58,11 +59,7 @@ nav ul li a{
 
 }
 
-
-
-
-
-/* hero*/
+/* /* style for hero */*/
 .hero{
     margin-top: 10px;
     margin-left: 150px;
@@ -107,7 +104,6 @@ nav ul li a{
   }
 
 
-
    /* Statistics */
 .statistics{
     background-color:  rgb(37, 67, 94);
@@ -133,42 +129,33 @@ nav ul li a{
     font-size: 1.3rem;
   }
 
- /* About */
-
+ /* about */
 
 .title{
   display: flex;
   justify-content: center;
-
-
-
   color: #e50e0e;
 }
  
 
-.About .row{
+.about .row{
 
   margin-left: 150px;
   margin-right: 150px;
-  
   margin-bottom: 80px;
   height: auto;
-
   text-align: center;
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
  
 }
-.About .column{
+.about .column{
   
   width: 300px;
   height: auto;
-  
-  
   background-color: rgb(37, 67, 94);
   border-radius: 15px;
-  
 }
 
 .about-h2{
@@ -189,7 +176,6 @@ nav ul li a{
   padding-bottom: 20px;
 }
 
-
 /* Contact */
 .contact-section{
 display: flex;
@@ -199,7 +185,6 @@ margin-right: 200px;
 margin-left: 150px;
 margin-top: 80px;
 margin-bottom: 40px;
-
 
 }
 fieldset{
@@ -257,13 +242,9 @@ background-color: #10a897;
 color: #ffffff;
 }
 
-  
-
- 
-  
 
   /* Services */
-  .services{
+ .services{
 
     margin-left: 150px;
     margin-right: 150px;
@@ -291,10 +272,6 @@ color: #ffffff;
   .services p{
     text-align: justify;
   }
-
-
- 
-
 
 /* Footer */
 #social-networks {
@@ -340,19 +317,12 @@ color: #ffffff;
     margin-bottom: 20px;
   }
 
-
-
-
   .services{
     margin-left: 100px;
     margin-right: 100px;
   }
   .services .row{
     display: flex;
-    
-
-
-   
   }
 
   .servise .column{
@@ -374,25 +344,20 @@ color: #ffffff;
     
   }
  
-  .About .row{
+  .about .row{
 
-
-  
     margin-bottom: 80px;
-    
     margin-top: 50px;
-
     flex-direction: column;
     align-items: center;
     
   }
-  .About .column{
+  .about .column{
     
     width:500px;
     height: auto;
     margin-bottom: 50px;
-    
-  
+   
   }
   .contact-section{
     flex-direction: column;
@@ -502,7 +467,7 @@ color: #ffffff;
     height: auto;
   }
 
-  .About .row{
+  .about .row{
 
 
   
@@ -513,7 +478,7 @@ color: #ffffff;
     flex-direction: column;
     
   }
-  .About .column{
+  .about .column{
     
     width: 350px;
     height: auto;
@@ -616,7 +581,7 @@ color: #ffffff;
   }
 
   
-  .About .row{
+  .about .row{
 
     margin-left: 20px;
   margin-right: 20px;
@@ -632,7 +597,7 @@ color: #ffffff;
 
     
   }
-  .About .column{
+  .about .column{
     
     width: 250px;
     height: auto;
