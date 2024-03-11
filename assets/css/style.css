@@ -262,7 +262,7 @@ color: #ffffff;
     align-items: center;
     padding: 40px;
   }
-  #img-box{
+  .img-box{
     width: 400px;
   }
   .services h3{
@@ -338,7 +338,7 @@ color: #ffffff;
     height: auto;
   }
 
-  #img-box{
+  .img-box{
     width: 300px;
     padding: 30px;
     
@@ -575,7 +575,7 @@ color: #ffffff;
     padding: 30px;
     
   }
-  #img-box{
+  .img-box{
     width: 320px;
     padding: 30px;
   }
