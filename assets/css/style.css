@@ -139,6 +139,9 @@ nav ul li a{
 .title{
   display: flex;
   justify-content: center;
+
+
+
   color: #e50e0e;
 }
  
@@ -200,7 +203,7 @@ margin-right: 200px;
 margin-left: 150px;
 margin-top: 80px;
 margin-bottom: 40px;
-;
+
 
 }
 fieldset{
@@ -222,7 +225,7 @@ font-weight: 900;
 font-size: 1.3em;
 }
 .contact-form{
-background-color: rgb(37, 67, 94 );
+background-color: rgba(37, 67, 94 );
 padding: 30px;
 border-radius: 12px;
 color: #ffffff;
@@ -269,6 +272,7 @@ color: #ffffff;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 80px;
+  
   }
   .services .row{
     display: flex;
@@ -315,11 +319,15 @@ color: #ffffff;
 /* Responsive Design */
 
 
-@media (max-width: 886px) {
+@media (max-width: 768px) {
   header{
     flex-direction: column;
   }
   .logo{
+    margin-bottom: 10px;
+  }
+  .hero h1{
+    font-size: 2em;
     margin-bottom: 10px;
   }
 
@@ -335,15 +343,7 @@ color: #ffffff;
     margin-bottom: 20px;
   }
 
-  .home-end .row{
 
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  .home-end .row{
-    flex-direction: column;
-    justify-content: center;
-  }
 
 
   .services{
@@ -351,7 +351,11 @@ color: #ffffff;
     margin-right: 100px;
   }
   .services .row{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+
+
    
   }
 
@@ -445,6 +449,8 @@ color: #ffffff;
     margin-right: 10px;
     margin-left: 10px;
   }
+
+
   .hero .row{
     flex-direction: column;
     text-align: center;
@@ -452,47 +458,53 @@ color: #ffffff;
   .hero .column{
     margin-bottom: 20px;
   }
-
-  .home-end .row{
-
-    flex-direction: column;
-    margin-bottom: 50px;
+  .hero h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
   }
-  .home-end .row{
-    flex-direction: column;
-    justify-content: center;
-  }
+ 
 
 
   .services{
-    margin-left: 10px;
+    margin: auto;
     margin-right: 10px;
+    
   }
   .services .row{
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .services .row .text-column{
     order: 2;
-    padding: 0;
+    padding: 30px;
+    
   }
   #img-box{
-    width: 365px;
+    width: 320px;
+    padding: 30px;
   }
 
+  
   .About .row{
 
-    margin-left: 15px;
-  
-    margin-bottom: 80px;
-    
-    margin-top: 50px;
+    margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+ 
+ 
 
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     
   }
   .About .column{
     
-    width: 350px;
+    width: 250px;
     height: auto;
     margin-bottom: 50px;
     
