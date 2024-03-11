@@ -146,23 +146,19 @@ nav ul li a{
 }
  
 
- .About .row{
+.About .row{
 
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  
   margin-bottom: 80px;
   height: auto;
-  
-  
-  
+
   text-align: center;
   margin-top: 50px;
-  
-
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-evenly;
+ 
 }
 .About .column{
   
