@@ -319,6 +319,140 @@ color: #ffffff;
 /* Responsive Design */
 
 
+@media (max-width: 1256px) {
+  header{
+    flex-direction: column;
+  }
+  .logo{
+    margin-bottom: 10px;
+  }
+  .hero h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .hero{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .hero .row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero .column{
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .services{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .services .row{
+    display: flex;
+    
+
+
+   
+  }
+
+  .servise .column{
+    justify-content: center;
+    
+  }
+  .services .row .text-column{
+    order: 2;
+    padding: 0;
+  }
+  .services img{
+    width: 10%;
+    height: auto;
+  }
+
+  #img-box{
+    width: 300px;
+    padding: 30px;
+    
+  }
+ 
+  .About .row{
+
+
+  
+    margin-bottom: 80px;
+    
+    margin-top: 50px;
+
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .About .column{
+    
+    width:500px;
+    height: auto;
+    margin-bottom: 50px;
+    
+  
+  }
+  .contact-section{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-section .text-right fieldset{
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    width: 100%;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   header{
     flex-direction: column;
