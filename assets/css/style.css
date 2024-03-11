@@ -59,7 +59,7 @@ nav ul li a{
 
 }
 
-/* /* style for hero */*/
+/*  style for hero */
 .hero{
     margin-top: 10px;
     margin-left: 150px;
@@ -105,7 +105,7 @@ nav ul li a{
 
 
    /* Statistics */
-.statistics{
+  .statistics{
     background-color:  rgb(37, 67, 94);
     padding: 5px;
     text-align: center;
@@ -191,7 +191,7 @@ fieldset{
 max-width: 60%;
 
 }
-.text-right,.contact-form{
+.text-right,.contact-form1{
 flex: 1;
 
 }
@@ -205,7 +205,7 @@ color: #ff6635;
 font-weight: 900;
 font-size: 1.3em;
 }
-.contact-form{
+.contact-form1{
 background-color: rgba(37, 67, 94 );
 padding: 30px;
 border-radius: 12px;
@@ -384,7 +384,7 @@ color: #ffffff;
     max-width: 100%;
     margin-bottom: 20px;
   }
-  .contact-form{
+  .contact-form1{
     width: 100%;
   }
 
@@ -511,7 +511,7 @@ color: #ffffff;
     max-width: 100%;
     margin-bottom: 20px;
   }
-  .contact-form{
+  .contact-form1{
     width: 100%;
   }
 
@@ -637,7 +637,7 @@ color: #ffffff;
     max-width: 100%;
     margin-bottom: 20px;
   }
-  .contact-form{
+  .contact-form1{
     width: 100%;
   }
 
