@@ -58,7 +58,7 @@ The goal is to make a well-functioning professional servise website. The focus w
 The Mech3D website showcases a platform aimed at providing specialized services in CAD design, prototype development, and manufacturing within the mechanical engineering sector. It targets engineering firms, project managers, and innovators looking to enhance their product development process through advanced 3D modeling and printing technologies. The site likely serves as a portfolio and contact point for obtaining Mech3D's expertise in bringing engineering projects from conceptualization to reality.
 
 ### Structure
-I followed the traditional CV framework since it is not overly complicated and it will be easy for the users to find the information they are looking for. The Mech3D website has a single, long, scrolling page design. My structure features a fixed top navigation that connects the user to each of the sections from anywhere on the page. 
+The Mech3D website has a single, long, scrolling page design. My structure features a fixed top navigation that connects the user to each of the sections from anywhere on the page. 
 
 **Website Sections:**
 1. **_Home / Landing page:_** A simple introduction that presents the overarching concept of the robot, giving users an understanding of what this website offers.
@@ -83,18 +83,18 @@ The wireframe creation utilized Balsamiq, refined under mentorship in its initia
 ## Features
 ### Existing Features
 * **Navigation Bar**
-  * The navigation bar is at the top of the page, and it is fixed to the top. The logo is in the left-hand corner of the navigation, and it links to the index.html page. 
-  * The other navigation links on the website are to the right. Home, services, about, and Contact connect to different sections of the same page. 
-  * The font color is in contrast with the navigation background color. The hover effect is used for navigation, so the user can know which page they are on. 
+  - The page features a top-fixed navigation bar, with the logo on the left linking to the home page. 
+  - Navigation options are aligned to the right, linking to various sections within the same page, including Home, Services, About, and Contact.
+  - The design ensures the text color contrasts with the background for readability, and a hover effect highlights the currently viewed section, enhancing user experience.
 
 
 ![navigation_bar](assets/README-assets/header.png)
 
 
 * **Home**
-  - The page features a top-fixed navigation bar, with the logo on the left linking to the home page. 
-  - Navigation options are aligned to the right, linking to various sections within the same page, including Home, Services, About, and Contact.
-  - The design ensures the text color contrasts with the background for readability, and a hover effect highlights the currently viewed section, enhancing user experience.
+  - The layout of this section transitions fluidly from a horizontal row on larger displays to a vertical column on smaller screens, ensuring a versatile and user-friendly experience.
+  - To the left, an engaging narrative unfolds, detailing Mech3D's broad capabilities and visionary approach, encapsulated in an abstract overview. This segment gracefully concludes with a steadfast "Learn More" button, directing users to services section for further exploration.
+  - On the right, page feature a strikingly large, transparent robotic arm. This piece stands as a testament to the innovative spirit of Mech3D, showcasing the advanced technological prowess available to users.
 
   
 ![home_section](assets/README-assets/home.png)
