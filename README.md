@@ -126,16 +126,16 @@ The wireframe creation utilized Balsamiq, refined under mentorship in its initia
 
 
 - **Footer**
-  - This section includes the social media links through which users can reach me. Below is copywriting information for the Online CV website of Anjalee Kulasinghe.
+  - This section includes the social media links through which users can reach the news and activities of the Mech3D.
 
 ![contact_section](assets/README-assets/footer.png)
 
 
 ### Features Left to Implement
 In the future, 
-* I would like to add the Portfolio section to the online CV, where I can add links to the websites that I have designed, along with a link to Github. If an employer is interested in my work, they can go in and have a look.
-* I would like to make the contact form functional.
-* I would like to improve the performance of the website.
+* I would like to introduce a section for custom CAD design for customers, where they can sign up and create their designs online.
+* The website's performance needs to be improved.
+* I need to create much better pictures to provide deeper insight into what Mech3D is capable of doing.
 
 
 ## Testing
